@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="images/bootstrap-framework-logo.png"
+      type="image/x-icon"
+    />
+    <!-- bootstrapp icons -->
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media.css" />
+     <!-- EMAILJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.0.0/dist/email.min.js"></script>
+    <script>
+      emailjs.init("MCbOYxZCTkD57wfy2"); 
+    </script>
+    <title>DevFolio Bootstrap Portfolio</title>
+  </head>
+  <body>
+<!-- (==============================navbar====================================) -->
+<nav class="navbar navbar-expand-lg bg-nav fixed-top" >
+  <div class="container">
+    <h1 class="h3 mb-0">
+      <a class="text-white text-decoration-none fw-semibold lh-sm" href="#"
+        >Amir Nader</a
+      >
+    </h1>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="bi mobile-nav-toggle bi-list text-white"></i>
+    </button>
+    <div
+      class="collapse navbar-collapse mobile-links"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main-links">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#home"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+<!-- (==============================header====================================) -->
+<header
+class="d-flex header justify-content-center align-items-center text-center" id="home"
+>
+<h2 class="text-white">I am Amir Nader</h2>
+<div>
+  <span id="element"></span>
+</div>
+</header>
+
+<!-- (==============================about====================================) -->
+<section class="about  bg_color" id="about">
+  <div class="container">
+    <div class="row padding-mobile ">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-5 col-sm-6">
+            <div class="about-img">
+              <img
+                src="images\profile.png"
+                alt="Amir"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+          <div class="col-md-7 col-sm-6">
+            <div class="about-info">
+              <p><span>Name: </span> Amir Nader</p>
+              <p><span>Profile: </span> Front-end developer</p>
+              <p><span>Email: </span>Amirnader2021@outlook.com</p>
+              <p><span>Phone: </span>(+20)1276622834</p>
+            </div>
+          </div>
+          <span class="mb-3">Top Skills</span>
+          <div class="bars">
+            <span>HTML 95%</span>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+            <span>CSS3 90%</span>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+            <span>PHP 70%</span>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+            <span>JAVASCRIPT 90%</span>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+            <span>Reactjs 85%</span>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+            <span>Nextjs 85%</span>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about-me">
+          <h2 class="mb-5">About me</h2>
+          <p>
+            Hi, I'm Amir, a dedicated front-end developer currently expanding my skill set to become a full-stack developer. With a strong foundation in front-end technologies, I'm now diving into backend development to enhance my ability to build comprehensive, end-to-end web solutions.
+          </p>
+          <p>
+            My journey in tech is driven by a passion for continuous learning and growth. I've completed an offensive cyber security course, which has given me a unique perspective on building secure and resilient applications. Over the course of my career, I've gained valuable experience through five internships, each contributing to my development as a well-rounded professional.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+<!-- (==============================services====================================) -->
+<section class="services bg_color text-center pt-5" id="services">
+  <h2 class="text-uppercase">services</h2>
+  <p class="p_line">
+    Expertise in marketing, web development, and design to elevate your brand and online presence.
+  </p>
+  <div class="container pt-5">
+    <div class="row gy-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="service bg-white rounded-3">
+          <div
+            class="circle rounded-circle d-flex justify-content-center align-items-center mb-3"
+          >
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <h3 class="text-uppercase">Web Design</h3>
+          <p>
+            Designing visually appealing and user-centric websites, 
+            focusing on intuitive navigation, responsive layouts, and
+             cohesive branding to enhance the user journey.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service bg-white rounded-3">
+          <div
+            class="circle rounded-circle d-flex justify-content-center align-items-center mb-3"
+          >
+            <i class="bi bi-card-checklist"></i>
+          </div>
+          <h3 class="text-uppercase">Web Development</h3>
+          <p>
+            Building robust and scalable websites using clean code and the 
+            latest technologies. We ensure seamless user experiences, 
+            optimized performance, and future-ready solutions tailored
+             to your needs.
+
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service bg-white rounded-3">
+          <div
+            class="circle rounded-circle d-flex justify-content-center align-items-center mb-3"
+          >
+            <i class="bi bi-bar-chart"></i>
+          </div>
+          <h3 class="text-uppercase">Marketing</h3>
+          <p>
+            Crafting strategic marketing campaigns that drive brand awareness 
+            and boost customer engagement, utilizing the latest digital tools to 
+            maximize reach and ROI.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- (==============================bg-img====================================) -->
+<section class="bg_color pt-5">
+  <div class="bg-img">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <div class="inner">
+            <div
+              class="circle rounded-circle d-flex justify-content-center align-items-center mb-3"
+            >
+              <i class="bi bi-check"></i>
+            </div>
+            <h3>20+</h3>
+            <p class="text-uppercase">WORKS COMPLETED</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="inner">
+            <div
+              class="circle rounded-circle d-flex justify-content-center align-items-center mb-3"
+            >
+              <i class="bi bi-journal-richtext"></i>
+            </div>
+            <h3>1+</h3>
+            <p class="text-uppercase">YEARS OF EXPERIENCE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- (==============================work====================================) -->
+<section class="work bg_color" id="work">
+  <h2 class="text-uppercase text-center">Portfolio</h2>
+  <p class="p_line text-center">
+    My Latest Work
+  </p>
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="work_item text-start">
+          <div class="work_img">
+            <img src="images/work-1.png" alt="work-1" class="img-fluid" />
+          </div>
+          <div
+            class="work_content d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h3>EST EST EST Restaurant</h3>
+            </div>
+            <a href="https://ristoranteestestest.com/">
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="work_item text-start">
+          <div class="work_img">
+            <img src="images/work-2.png" alt="work-2" class="img-fluid" />
+          </div>
+          <div
+            class="work_content d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h3>Roma Citta</h3>
+            </div>
+            <a href="https://roma-citta.com/">
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="work_item text-start">
+          <div class="work_img">
+            <img src="images/work-3.png" alt="work-3" class="img-fluid" />
+          </div>
+          <div
+            class="work_content d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h3>Fresha E-commerce Website(Route)</h3>
+            </div>
+            <a href="https://fresha-cart.vercel.app/">
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="work_item text-start">
+          <div class="work_img">
+            <img src="images/work-4.png" alt="work-4" class="img-fluid" />
+          </div>
+          <div
+            class="work_content d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h3>Old Portfolio</h3>
+            </div>
+            <a href="https://my-portfolio-eight-black-32.vercel.app/">
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="work_item text-start">
+          <div class="work_img">
+            <img src="images/work-5.png" alt="work-5" class="img-fluid" />
+          </div>
+          <div
+            class="work_content d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h3>Key Digitals Landing Page</h3>
+            </div>
+            <a href="https://key-digital.vercel.app/">
+              <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="work_item text-start">
+          <div class="work_img">
+            <img src="images/work-6.png" alt="work-6" class="img-fluid" />
+          </div>
+          <div
+            class="work_content d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h3>Prince Molases Management System</h3>
+            </div>
+            <a href="https://prince-molases-system.vercel.app/">
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- (==============================contact====================================) -->
+<section class="contact bg_color " id="contact">
+  <div class="overlay">
+ <div class="contact-padding pb-5">
+  <div class="container p-md-5 pb-5 bg-white ">
+    <div class="row bg-white">
+      <div class="col-md-6">
+        <div class="contact_item">
+          <h3 class="mb-5">Send Message Us</h3>
+          <form id="contact-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="form-control mb-3 rounded-0"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="form-control mb-3 rounded-0"
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              class="form-control mb-3 rounded-0"
+            />
+            <textarea
+              name="message"
+              placeholder="Message"
+              class="form-control rounded-0"
+              rows="5"
+            ></textarea>
+
+            <button
+              class="btn btn-color m-auto d-block mt-3 rounded-pill text-white text-capitalize"
+            >
+              send message
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact_item padding-top">
+          <h3 class="mb-5">Get in Touch</h3>
+         
+          <div class="contact_methods">
+            <div class="method">
+              <i class="bi bi-geo-alt"></i>
+              <p>Cairo, Egypt 11231</p>
+            </div>
+            <div class="method">
+              <i class="bi bi-phone"></i>
+              <p>(+20) 1276622834</p>
+            </div>
+            <div class="method">
+              <i class="bi bi-envelope"></i>
+              <p>Amirnader2021@outlook.com</p>
+            </div>
+          </div>
+          <div class="media d-flex pt-4">
+            <div class="circle me-3">
+              <a href="https://github.com/Amirnadernabih"> <i class="bi bi-github"></i></a>
+            </div>
+            <div class="circle">
+              <a href="https://www.linkedin.com/in/amir-nader-43a18624a/"> <i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+  </div>
+</section>
+<!-- (==============================footer====================================) -->
+<footer class="py-3">
+  <div class="container-fluid text-center">
+    <p class="text-white m-auto">
+      <i class="fa-regular fa-copyright"></i> Copyright
+      <span class="fw-bold">Eng/Amir Nader</span>. All Rights Reserved <br />
+    </p>
+  </div>
+</footer>
+<!-- (==============================type.js library====================================) -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed("#element", {
+    strings: ["Front-end developer", "Marketing", "Freelancer", "Offensive Cyber Security"],
+    typeSpeed: 70,
+    loop: true,
+    backSpeed: 70,
+    backDelay: 1500,
+  });
+</script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "MCbOYxZCTkD57wfy2",
+      });
+   })();
+</script>
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    
+    const form = event.target;
+    
+    emailjs.sendForm('service_up9gksc', 'template_2i2ir3d', form)
+      .then(function(response) {
+        console.log('Success:', response);
+        alert('Your message has been sent successfully!');
+      }, function(error) {
+        console.log('Error:', error);
+        alert('There was a problem sending your message.');
+      });
+  });
+</script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
