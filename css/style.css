@@ -8,7 +8,7 @@
     --animate-duration: 2s;
   }
   .my-element {
-    opacity: 0; 
+    opacity: 0; /* Initially hide the element */
     transition: opacity 0.3s ease-in-out;
 }
 .animate__fadeIn {
@@ -102,7 +102,7 @@ p{
     content: "";
     width:0;
     height: 0.125rem;
-    background-color: var(--white-color);
+    background-color: var(--color-hover-link);
     bottom: 0;
     left: 0;
     transition: width var(--transition-timing);

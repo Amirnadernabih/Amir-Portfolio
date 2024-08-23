@@ -42,19 +42,12 @@
         >Amir Nader</a
       >
     </h1>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+
       <i class="bi mobile-nav-toggle bi-list text-white"></i>
     </button>
     <div
-      class="collapse navbar-collapse mobile-links"
+    class="offcanvas offcanvas-end " tabindex="-1" 
       id="navbarSupportedContent"
     >
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main-links">
@@ -75,7 +68,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </ul>
+      
     </div>
   </div>
 </nav>
