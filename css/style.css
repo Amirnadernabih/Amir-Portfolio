@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    cursor:none;
+}
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+  }
+  .my-element {
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+.animate__fadeIn {
+    opacity: 1; 
 }
 ul{
     padding:0 ;
